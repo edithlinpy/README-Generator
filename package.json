@@ -1,0 +1,24 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A README generator helps users to create a professional README for a new project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edithlinpy/README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edithlinpy/README-Generator/issues"
+  },
+  "homepage": "https://github.com/edithlinpy/README-Generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5"
+  }
+}
