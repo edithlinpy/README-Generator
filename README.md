@@ -40,7 +40,7 @@ Sections entitled:
     ```
 
     ```console
-     npm install --save inquirer@^8.0.0
+    npm install --save inquirer@^8.0.0
     ```
 
 4. Invoke The application by using the following command:
