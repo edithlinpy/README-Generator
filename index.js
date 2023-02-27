@@ -39,7 +39,7 @@ const questions = [
       {
         type: 'input',
         message: 'How can users contribute to your project?',
-        name: 'credits',
+        name: 'contributing',
       },
       {
         type: 'input',
@@ -92,6 +92,9 @@ function getLicenseBadge(license) {
 
 // function to write README file
 function writeToFile(fileName, data) {
+  fs.writeFile(path.join(process.cwd(), 'example', fileName), generateMarkdown(data), (err) =>
+    err ? console.error(err) : console.log('Success!')
+  );
 }
 
 // function to initialize program
@@ -99,9 +102,10 @@ function init() {
     inquirer
     .prompt(questions)
     .then((response) => {
+      // console.log(response);
+      response.licenseBadge = getLicenseBadge(response.license);
       console.log(response);
-      let licenseBadge = getLicenseBadge(response.license);
-      console.log(licenseBadge);
+      writeToFile("README.md", response);
     });
 }
 
