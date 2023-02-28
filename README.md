@@ -52,6 +52,10 @@ Sections entitled:
 ## Usage
 Follow the instructions and answer all the questions, a professional README.md file will be created in the example folder. Here is an example:
 
+[Video demo](https://drive.google.com/file/d/1yVkC5EaCwsZxUImvEoGbmp7ZTmBPCcT6/view?usp=share_link)
+
+Screenshot:
+
 ![Terminal output](https://github.com/edithlinpy/README-Generator/blob/main/images/screen.jpg?raw=true)
 
 A sample README.md can be found in the example folder.
